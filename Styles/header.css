@@ -1,0 +1,71 @@
+:root {
+    --darkblue-background-color: #334155;
+    --lightblue-border-color:  #475569;
+    --orange-color: #EA580C;
+    --lightgray-color: #CBD5E1;
+    --white: #FFF;
+}
+
+.body {
+    background-color: blue;
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "roboto";
+    
+}
+
+
+  /* Header start */
+
+.header {
+    display: flex;
+    padding: 24px 80px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background-color: #334155;
+}
+.div-frame {
+    display: flex;
+    width: 1000px;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    background-color: #334155;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+        /* Left element Sigma
+        display: flex;
+        align-items: center;
+        gap: 38px;
+        */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--White);
+    font-family: "Roboto";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 35.2px */
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.Home .{
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
