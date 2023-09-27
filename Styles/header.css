@@ -13,11 +13,12 @@ a {
 body {
     background-color: #0F172A;
     display: flex;
-    margin: 0;
+    margin: auto;
     width: 1440px;
     flex-direction: column;
     align-items: center;
     font-family: "roboto";
+    align-content: center;
 }
 
   /* Header start */
@@ -33,7 +34,7 @@ header {
 .div-frame {
     display: flex;
     width: 1000px;
-    height: 5rem;
+    height: 4rem;
     padding: 24px;
     justify-content: space-between;
     align-items: center;

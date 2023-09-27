@@ -4,7 +4,8 @@
     --orange-600: #EA580C;
     --lightgray-color: #CBD5E1;
     --white: #FFF;
-}.section-two {
+}
+.section-two {
     display: flex;
     padding: 80px;
     align-items: center;
