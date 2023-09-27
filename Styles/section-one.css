@@ -50,7 +50,7 @@ p {
     align-self: stretch;
     color: var(--white, #FFF);
     /* Body/L */
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
