@@ -37,6 +37,7 @@
     align-items: flex-start;
     gap: 24px;
     flex: 1 0 0;
+    margin-bottom: 7rem;
 }
 
 .h5-white {
