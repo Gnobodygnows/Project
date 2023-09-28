@@ -5,6 +5,7 @@
     --lightgray-color: #CBD5E1;
     --white: #FFF;
 }
+
 .section-three {
     display: flex;
     padding: 80px;
@@ -12,6 +13,7 @@
     gap: 80px;
     align-self: stretch;
 }
+
 .section-three-left {
     display: flex;
     flex-direction: column;
@@ -20,12 +22,14 @@
     gap: 24px;
     flex: 1 0 0;
 }
+
 .flpr-orange img {
     max-width: 100%;
     max-height: 100%;
     background: url(/Bilder/Flipper-orange.png), lightgray 50% / cover no-repeat;
     mix-blend-mode: lighten;
 }
+
 .section-three-right {
     display: flex;
     flex-direction: column;
@@ -34,9 +38,10 @@
     gap: 24px;
     flex: 1 0 0;
 }
+
 .h5-white {
     align-self: stretch;
-    color: var(--White, #FFF);
+    color: var(--white, #FFF);
     /* Heading/3 */
     font-family: "Roboto";
     margin-bottom: -1.3rem;
@@ -45,6 +50,7 @@
     font-weight: 800;
     line-height: 110%; /* 52.8px */
 }
+
 .h5-orange {
     align-self: stretch;
     margin-top: 0;
@@ -56,16 +62,20 @@
     font-weight: 800;
     line-height: 110%; /* 52.8px */
 }
+
 ul {
 padding: 0;
-color: var(--White, #FFF);
+margin: 0;
+color: var(--white, #FFF);
 /* Body/L */
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 28.8px */
 list-style-type: none;
+justify-content: center;
 }
+
 .three {
     margin-bottom: 0;
 }
