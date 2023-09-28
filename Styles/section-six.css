@@ -1,0 +1,40 @@
+:root {
+    --darkblue-background-color: #334155;
+    --lightblue-border-color: #475569;
+    --orange-600: #EA580C;
+    --lightgray-color: #CBD5E1;
+    --white: #FFF;
+}
+
+.section-six {
+
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.section-six-left {
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    margin-bottom: 7rem;
+}
+/* h5 white kan tas bort? */
+
+.section-six-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+img {
+    border-radius: 12px;
+}
