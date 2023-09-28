@@ -1,0 +1,51 @@
+:root {
+    --darkblue-background-color: #334155;
+    --lightblue-border-color: #475569;
+    --orange-600: #EA580C;
+    --lightgray-color: #CBD5E1;
+    --white: #FFF;
+    --gradient: #162237;
+}
+.section-seven {
+    display: flex;
+    padding: 0px 80px 0px 80px;
+    align-items: center;
+    padding-top: 2rem;
+    max-width: 100%;
+    gap: 259px;
+    align-self: stretch;
+    background: var(--Gradient, radial-gradient(115.18% 155.85% at 63.17% 143.53%, rgba(251, 2, 2, 0.18) 30.21%, rgba(95, 95, 97, 0.00) 100%), radial-gradient(106.66% 74.74% at 103.5% 53.86%, rgba(56, 222, 192, 0.37) 0%, rgba(95, 95, 97, 0.00) 100%), radial-gradient(85.52% 98.51% at 16.76% 94.44%, rgba(56, 116, 222, 0.70) 0%, rgba(95, 95, 97, 0.00) 100%), #162237);
+}
+.section-seven-left {
+    display: flex;
+    padding: 0;
+    width: 640px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.btn-apps {
+    margin-bottom: 4rem;
+}
+.Phone-hand {
+    width: 100%;
+    height: 400px; 
+    overflow: hidden; 
+}
+.Phone {
+    width: 100%; 
+    height: 100%;
+    object-fit: fill;
+}
+.h5-white-hand {
+    align-self: stretch;
+    margin-top: 2rem;
+    color: var(--white, #FFF);
+    /* Heading/3 */
+    font-family: "Roboto";
+    margin-bottom: -1.3rem;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%; /* 52.8px */
+}

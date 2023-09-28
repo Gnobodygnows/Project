@@ -1,0 +1,26 @@
+:root {
+    --darkblue-background-color: #334155;
+    --lightblue-border-color: #475569;
+    --orange-600: #EA580C;
+    --lightgray-color: #CBD5E1;
+    --white: #FFF;
+    --gradient: #162237;
+}
+
+.section-eight {
+display: flex;
+padding: 80px;
+align-items: center;
+gap: 80px;
+align-self: stretch;
+}
+.h5-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+.h5-orange {
+    
+}
