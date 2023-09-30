@@ -12,6 +12,7 @@
     align-items: center;
     gap: 22.4rem;
     align-self: stretch;
+	padding: 0;
 }
 .section-nine-left {
     display: flex;
