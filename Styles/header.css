@@ -13,7 +13,8 @@ a {
 body {
     background-color: #162237;
     display: flex;
-	margin: 0 auto;
+	margin: auto;
+    padding: 2em;
     width: 1440px;
     flex-direction: column;
     align-items: center;
@@ -43,19 +44,19 @@ header {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
     background: linear-gradient(130deg, #4755693e, #0F172A);
 }
-/* .div-frame2 {
+.div-frame2 {
     display: flex;
     width: 85px;
-    /* height: 120px; */
+    height: 120px; 
     padding: 24px;
     margin-top: 20px;
     justify-content: space-between;
     align-items: center;
-    border-radius: 20px;
-    /* background: rgba(255, 255, 255, 0.05); */
-    /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; 
+    background: rgba(255, 255, 255, 0.05); 
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
     background: linear-gradient(130deg, #4755693e, #0F172A);
-} */ 
+} 
 
 .Hitech {
     color:  white;
@@ -100,6 +101,7 @@ header {
     background-color: var(--orange-600, #EA580C);
     color: white;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .menu {

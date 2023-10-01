@@ -14,23 +14,140 @@
 } */
 
 .page-wrapper {
-	background-color: #162237
+	background-color: #162237;
+	display: flex;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
+
 }
 
 .main-content {
-	background-color: #162237
+	background-color: #162237;
+	margin: 0;
 }
 
-
+/* @media (max-width: 768px) {
+	.section {
+	flex-direction: column; 
+	}
+} */
 
 @media (max-width: 768px) {
-	.page-wrapper {
-	  flex-direction: column; 
-	}
-  
+	.page-wrapper, .section-one, .section-two, .section-three, .section-six {
+	flex-direction: column; 
+	}	
+}
 	
 	.section-one-left, .section-one-right .section-two-left, .section-two-right .section-three-left, .section-three-right .section-six-left, .section-six-right .section-seven-left, .section-seven-right .section-nine-left, .section-nine-right {
-	  min-width: auto;
-	  max-width: auto;
+	min-width: auto;
+	max-width: auto;
 	}
-  }
+@media (max-width: 768px) {
+	.section-one-right, h1 {
+	flex-direction: column; 
+	padding-left: 0;
+	padding-top: 1em;
+	font-size: 3em;
+	}
+}
+@media (max-width: 768px) {
+	h3 {
+	flex-direction: column; 
+	padding-left: 0;
+	font-size: 1.5em;
+	}
+}
+@media (max-width: 2000px) {
+	header {
+	flex-direction: column; 
+	padding-left: 0;
+	width: 1200px;
+	align-self: center;
+	}
+}
+@media (max-width: 768px) {
+	header {
+	flex-direction: column; 
+	padding-left: 0;
+	}
+} 
+@media (max-width: 768px) {
+	.section-two-right {
+	width: 40%;
+	margin-top: 2.5em;
+	}
+} 
+
+@media (max-width: 768px) {
+	.row {
+	border: none;
+	padding: 0;
+	}
+} 
+@media (max-width: 768px) {
+	.section-three-left {
+	border: none;
+	padding: 0;
+	flex-direction: row;
+	align-self: flex-start;
+	width: 40%;
+	margin-left: -2em;
+	}
+} 
+@media (max-width: 768px) {
+	.section-three-right {
+	align-self:flex-start;
+	width: 600px;
+	margin-bottom: 0;
+	/* Justera text centrerat */
+	}
+} 
+@media (max-width: 768px) {
+	.h5-white {
+		margin-top: -1em;
+	}
+} 
+@media (max-width: 768px) {
+	.section-six-left {
+	align-self:flex-start;
+	margin: 0;
+	margin-bottom: 0;
+	/* Justera text centrerat */
+	}
+}
+
+@media (max-width: 768px) {
+		.section-six-right {
+		align-self:flex-start;
+		margin: 0;
+		margin-top: -1em;
+		width: 10%;
+		}
+	}
+	@media (max-width: 768px) {
+		.section-seven {
+		flex-direction: column; 
+		padding-left: 0;
+		padding-top: 1em;
+		align-self: flex-start;
+		padding: 5em;
+		gap: 2em;
+		padding-bottom: 0;
+		}
+	}
+	@media (max-width: 768px) {
+		.section-nine {
+		flex-direction: column; 
+		align-self: flex-start;
+		padding: 5em;
+		gap: 2em;
+		padding-bottom: 0;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.Map {
+			transform: rotate(-360deg);
+			height: 30%;
+		}
+	}

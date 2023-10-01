@@ -14,9 +14,9 @@
     align-self: stretch; */
 	display: flex;
 	padding: 5em;
-	align-items: center;
+	/* align-items: center; */
 	gap: 5em;
-	align-self: stretch;
+	/* align-self: stretch; */
 }
 
 .row {
@@ -35,7 +35,6 @@
 }
 
 .section-two-left {
-	border: 2px solid white;
 	/* display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -49,7 +48,6 @@
 }
 
 .section-two-right {
-	border: 2px solid white;
 	/* display: flex;
 	flex-direction: column;
 	justify-content: center;
