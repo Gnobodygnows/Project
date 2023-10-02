@@ -72,6 +72,55 @@
 	}
 }
 
+@media (max-width: 768px) {
+	h1 {
+		font-size: 4rem;
+		
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 3rem;
+		
+	}
+}
+
+@media (max-width: 768px) {
+	h3 {
+		font-size: 2.5rem;
+		
+	}
+}
+
+@media (max-width: 768px) {
+	h4 {
+		font-size: 2rem;
+		
+	}
+}
+
+@media (max-width: 768px) {
+	h5 {
+		font-size: 1.5rem;
+		
+	}
+}
+
+@media (max-width: 768px) {
+	h1, h2, h3, h4, h5, .graywhite, .graywhite2 {
+		align-self: center;
+		justify-self: center;
+		
+	}
+}
+
+@media (max-width: 768px) {
+	.btn-orange {
+		align-self: stretch;
+		
+	}
+}
 /* @media (max-width: 768px) {
 	* {
 		padding-left: 0;
