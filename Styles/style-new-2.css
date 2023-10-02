@@ -142,6 +142,8 @@ body {
 }
 
 .section-two-left {
+	width: 34.5rem;
+	height: 33.3rem;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
