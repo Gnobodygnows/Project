@@ -8,6 +8,7 @@
 footer {
 display: flex;
 padding: 48px 0px;
+padding-left: 5em;
 align-items: center;
 gap: 32px;
 align-self: stretch;

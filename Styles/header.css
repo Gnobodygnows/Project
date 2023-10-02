@@ -14,7 +14,6 @@ body {
     background-color: #162237;
     display: flex;
 	margin: auto;
-    padding: 2em;
     width: 1440px;
     flex-direction: column;
     align-items: center;
@@ -26,8 +25,8 @@ body {
 
 header {
     display: flex;
-    width: 1440px;
-    padding: 24px 80px;
+    width: 80%;
+    padding: 24px 50px;
     /* justify-content: space-between; */
     align-items: center;
     align-self: stretch;

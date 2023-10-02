@@ -8,7 +8,7 @@
 
 .section-three {
     display: flex;
-    padding: 80px;
+    padding: 5em;
     align-items: center;
     gap: 80px;
     align-self: stretch;
