@@ -1,0 +1,23 @@
+.section-one-right div {
+	background: url(/Bilder/FlipperZero1.png) center center/cover;
+}
+
+.section-two-right div {
+	background: url(/Bilder/Flipper-hand.png) center center/cover;
+}
+
+.section-three-left div {
+	background: url(/Bilder/Flipper-orange.png) center center/cover;
+}
+
+.section-six-right div {
+	background:url(/Bilder/Flipper-frequency.png) center center/cover;
+}
+
+.section-seven-right div {
+	background: url(/Bilder/Phone-hand.png) center center/cover;
+}
+
+.section-nine-right div {
+	background: url(/Bilder/Map.png), lightgray -33.085px 0px / 111.028% 167.167% no-repeat;
+}
