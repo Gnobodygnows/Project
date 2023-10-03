@@ -27,6 +27,12 @@
 }
 
 @media (max-width: 768px) {
+	.logo div ul li a {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 768px) {
 	.section-one-left-btns {
 		display: flex;
 		flex-direction: column;
